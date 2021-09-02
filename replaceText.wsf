@@ -1,0 +1,11 @@
+<job>
+<script language="JavaScript">
+    var fso = new ActiveXObject("Scripting.FileSystemObject");  
+    var MyFile = fso.GetFile("C:\\ChromeProfie\\Profile 1\\Preferences");
+    var txt = MyFile.OpenAsTextStream(1).ReadAll();
+    txt = txt.replace("Crashed", "Normal");
+    
+    var out = MyFile.OpenAsTextStream(2);
+    out.write(txt);
+</script>
+</job>

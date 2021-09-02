@@ -1,0 +1,24 @@
+[0621/022652.241:ERROR:file_io_win.cc(161)] CreateFile C:\Users\pushk\AppData\Local\Temp\scoped_dir20076_1485873175\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0621/022652.242:ERROR:file_io_win.cc(170)] CreateFile C:\Users\pushk\AppData\Local\Temp\scoped_dir20076_1485873175\Crashpad\reports\cb264dce-d651-4b6f-90b9-ef5a5f7b79f9.dmp: The system cannot find the path specified. (0x3)
+[0621/022652.242:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0624/160722.171:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0624/165533.617:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0624/205952.414:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0717/012439.881:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0717/012837.268:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0717/013612.877:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0717/122525.439:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0717/123301.518:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0717/150142.087:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0810/194019.224:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0810/194036.065:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0810/194039.125:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1014/180700.641:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\ChromeProfie\Crashpad\attachments\0af634ae-f112-4dcb-8f3a-5966f79be6e2: The system cannot find the path specified. (0x3)
+[1014/180700.669:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\ChromeProfie\Crashpad\attachments\1383761a-52c2-4677-ab33-f7a3380da459: The system cannot find the path specified. (0x3)
+[1014/180700.670:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\ChromeProfie\Crashpad\attachments\174283fd-b07b-49d0-a512-c6bbacaf53d4: The system cannot find the path specified. (0x3)
+[1014/180700.671:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\ChromeProfie\Crashpad\attachments\e703db43-f390-494f-a38f-b46ee1fd143d: The system cannot find the path specified. (0x3)
+[1014/180700.671:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/181442.387:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/185036.380:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/000935.286:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/125558.509:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

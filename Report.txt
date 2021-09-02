@@ -1,0 +1,1659 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< net.serenitybdd.starter:SerenityBDDCucumber >-------------
+[INFO] Building or 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SerenityBDDCucumber ---
+[INFO] Deleting C:\MangoAppsAutomation\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SerenityBDDCucumber ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\MangoAppsAutomation\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ SerenityBDDCucumber ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SerenityBDDCucumber ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 39 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ SerenityBDDCucumber ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to C:\MangoAppsAutomation\target\test-classes
+[INFO] /C:/MangoAppsAutomation/src/test/java/utilities/common.java: C:\MangoAppsAutomation\src\test\java\utilities\common.java uses or overrides a deprecated API.
+[INFO] /C:/MangoAppsAutomation/src/test/java/utilities/common.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ SerenityBDDCucumber ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SerenityBDDCucumber ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\MangoAppsAutomation\target\SerenityBDDCucumber-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M4:integration-test (default) @ SerenityBDDCucumber ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Nov 27, 2020 12:56:50 PM io.cucumber.core.options.CucumberPropertiesParser parse
+WARNING: Passing commandline options via the property `cucumber.options` has been deprecatedin favour of explicitly using property names.
+Please use these instead: [cucumber.ansi-colors.disabled, cucumber.execution.dry-run, cucumber.execution.limit, cucumber.execution.order, cucumber.execution.strict, cucumber.execution.wip, cucumber.features, cucumber.filter.name, cucumber.filter.tags, cucumber.glue, cucumber.object-factory, cucumber.plugin, cucumber.snippet-type]
+
+12:56:50.953 [main] WARN  i.c.junit.CucumberSerenityRunner - By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/ADomain/ADomain.feature
+12:56:51.728 [pool-1-thread-1] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+
+12:56:51.732 [pool-1-thread-1] INFO   - Test Suite Started: Test Different generic fucntionalities
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/Departments/Departments.feature
+12:56:51.753 [pool-1-thread-1] INFO   - Test Suite Started: Test Different scenarios for Departments module
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/Groups/GroupsFeatures.feature
+12:56:51.757 [pool-1-thread-1] INFO   - Test Suite Started: Test Different scenarios for Groups module
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/KellyMoore/KM.feature
+12:56:51.767 [pool-1-thread-1] INFO   - Test Suite Started: Test Different fucntionalities	for KMPaints
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+12:56:51.774 [pool-1-thread-1] INFO   - Test Suite Started: Test LMS functionalities
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/Modules/Modules.feature
+12:56:51.780 [pool-1-thread-1] INFO   - Test Suite Started: Test Different scenarios for Modules module
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/People/PeopleFeatures.feature
+12:56:51.785 [pool-1-thread-1] INFO   - Test Suite Started: Test Different scenarios for People module
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/Projects/ProjectFeatures.feature
+12:56:51.792 [pool-1-thread-1] INFO   - Test Suite Started: Test Different scenarios for Projects module
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/TeamHealth/TM.feature
+12:56:51.801 [pool-1-thread-1] INFO   - Test Suite Started: Test Different fucntionalities for Team Health
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/Users/UsersFeatures.feature
+12:56:51.807 [pool-1-thread-1] INFO   - Test Suite Started: Test Different scenarios for Users module
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/ZDependantTCs/ZDependantFeature.feature
+12:56:51.811 [pool-1-thread-1] INFO   - Test Suite Started: Dependant Test Cases
+
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/ZDependantTCs/ZFireFoxBrowser.feature
+12:56:51.815 [pool-1-thread-1] INFO   - Test Suite Started: FireFox Browser
+
+13:04:12.158 [pool-1-thread-1] ERROR  - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+Take course ,ask question , ansewer question and rate course
+--------------------------------------------------------------------------
+
+13:04:12.212 [pool-1-thread-1] ERROR  -     Test failed at step: Take course actions: TakeCourse
+
+13:04:12.212 [pool-1-thread-1] ERROR  -     Expected enabled element was not enabledBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'Driver info: driver.version: unknown
+
+13:05:06.873 [pool-1-thread-1] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Assign and remove course users
+---------------------------------------------------------------------
+
+13:05:06.874 [pool-1-thread-1] ERROR  -     Test failed at step: Click element: By.xpath: .//ul[@id='searchedUserList']/li/span[1]
+
+13:05:06.874 [pool-1-thread-1] ERROR  -     no such element: Unable to locate element: {"method":"xpath","selector":".//ul[@id='searchedUserList']/li/span[1]"}
+
+13:11:44.109 [pool-1-thread-1] ERROR  - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+Take course as guest user
+--------------------------------------------------------------------------
+
+13:11:44.110 [pool-1-thread-1] ERROR  -     Test failed at step: Login check: guestUser
+
+13:11:44.110 [pool-1-thread-1] ERROR  -     Element should be visible
+
+13:14:49.146 [pool-1-thread-1] ERROR  - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+Verify course visibility to Entire company
+--------------------------------------------------------------------------
+
+13:14:49.147 [pool-1-thread-1] ERROR  -     Test failed at step: Login check: CompanyUser
+
+13:14:49.147 [pool-1-thread-1] ERROR  -     Element should be visible
+
+13:26:06.201 [pool-1-thread-1] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Edit course settings
+---------------------------------------------------------------------
+
+13:26:06.201 [pool-1-thread-1] ERROR  -     Test failed at step: Course settings: EditCourseSettings
+
+13:26:06.201 [pool-1-thread-1] ERROR  -     element click intercepted: Element <label for="enable-page-view">...</label> is not clickable at point (243, 913). Other element would receive the click: <div id="mango-taskbar-inner" class="mango-clearfix">...</div>
+
+13:31:01.533 [pool-1-thread-1] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Create sequencial curriculum
+---------------------------------------------------------------------
+
+13:31:01.534 [pool-1-thread-1] ERROR  -     Test failed at step: Create curriculum: CreateCurriculum
+
+13:31:01.534 [pool-1-thread-1] ERROR  -     no such element: Unable to locate element: {"method":"xpath","selector":".//ul/li/a[text()='Create a Curriculum']"}
+
+
+Failed scenarios:
+file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:19
+# Take course ,ask question , ansewer question and rate course
+file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:26
+# Assign and remove course users
+file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:43
+# Take course as guest user
+file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:59
+# Verify course visibility to Entire company
+file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:104
+# Edit course settings
+file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:129
+# Create sequencial curriculum
+
+22
+ Scenarios (
+6 failed
+, 
+16 passed
+)
+60
+ Steps (
+6 failed
+, 
+5 skipped
+, 
+49 passed
+)
+34m
+10.003s
+
+
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1166)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:971)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1246)
+	at pages.LMSPage.takeCourseActions(LMSPage.java:819)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.takeCourseActions$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.takeCourseActions(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:48)
+	at ?.User performs "TakeCourse" action(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:21)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: .//button[@class='actionbutton actionblue spa-btn-ls'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1163)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:971)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1246)
+	at pages.LMSPage.takeCourseActions(LMSPage.java:819)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.takeCourseActions$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.takeCourseActions(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:66)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:254)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[@class='actionbutton actionblue spa-btn-ls']"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8f4ec6d708832ba5b9023f69cbcc9ea8
+*** Element info: {Using=xpath, value=.//button[@class='actionbutton actionblue spa-btn-ls']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:229)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 59 more
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//ul[@id='searchedUserList']/li/span[1]"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71cfd1cc213ee7aadd350140a31b8981
+*** Element info: {Using=xpath, value=.//ul[@id='searchedUserList']/li/span[1]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getWrappedElement(WebElementFacadeImpl.java:1426)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:373)
+	at utilities.common.clickElement(common.java:394)
+	at utilities.common$ByteBuddy$J6zA4Uqp.clickElement$accessor$m11g8leg(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at utilities.common$ByteBuddy$J6zA4Uqp.clickElement(Unknown Source)
+	at pages.LMSPage.assignRemoveCourseUser(LMSPage.java:966)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.assignRemoveCourseUser$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.assignRemoveCourseUser(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:50)
+	at ?.User performs "AssignRemoveCourseUsers" action(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:28)
+
+java.lang.AssertionError: Element should be visible
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.failWithMessage(WebElementFacadeImpl.java:1021)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.shouldBeVisible(WebElementFacadeImpl.java:541)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy35.shouldBeVisible(Unknown Source)
+	at pages.DomainPage.loginCheck(DomainPage.java:498)
+	at pages.DomainPage$ByteBuddy$qF99RE2a.loginCheck$accessor$MyqVTQTx(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.DomainPage$ByteBuddy$qF99RE2a.loginCheck(Unknown Source)
+	at main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(DomainSteps.java:32)
+	at ?.User has explicitly logged in to "guestUser" domain(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:47)
+
+java.lang.AssertionError: Element should be visible
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.failWithMessage(WebElementFacadeImpl.java:1021)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.shouldBeVisible(WebElementFacadeImpl.java:541)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy35.shouldBeVisible(Unknown Source)
+	at pages.DomainPage.loginCheck(DomainPage.java:498)
+	at pages.DomainPage$ByteBuddy$qF99RE2a.loginCheck$accessor$MyqVTQTx(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.DomainPage$ByteBuddy$qF99RE2a.loginCheck(Unknown Source)
+	at main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(DomainSteps.java:32)
+	at ?.User has explicitly logged in to "CompanyUser" domain(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:62)
+
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label for="enable-page-view">...</label> is not clickable at point (243, 913). Other element would receive the click: <div id="mango-taskbar-inner" class="mango-clearfix">...</div>
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83818a40fd063a718666f966aa779576
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1248)
+	at pages.LMSPage.courseSettings(LMSPage.java:1118)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.courseSettings$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.courseSettings(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:56)
+	at ?.User performs "EditCourseSettings" action(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:106)
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//ul/li/a[text()='Create a Curriculum']"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83818a40fd063a718666f966aa779576
+*** Element info: {Using=xpath, value=.//ul/li/a[text()='Create a Curriculum']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getWrappedElement(WebElementFacadeImpl.java:1426)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:373)
+	at utilities.common.clickElement(common.java:394)
+	at utilities.common$ByteBuddy$J6zA4Uqp.clickElement$accessor$m11g8leg(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at utilities.common$ByteBuddy$J6zA4Uqp.clickElement(Unknown Source)
+	at pages.LMSPage.createCurriculum(LMSPage.java:1663)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.createCurriculum$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.createCurriculum(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:87)
+	at ?.User performs "CreateCurriculum" action(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:130)
+
+
+13:31:01.892 [pool-2-thread-2] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+
+13:31:01.903 [pool-2-thread-5] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+
+13:31:01.921 [pool-2-thread-1] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+
+13:31:01.933 [pool-2-thread-6] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+
+13:31:01.977 [pool-2-thread-7] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+
+13:31:01.995 [pool-2-thread-8] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+
+13:31:01.995 [pool-2-thread-3] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+
+13:31:02.003 [pool-2-thread-4] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+
+[INFO] Running Test LMS functionalities
+
+@LMS @LMS001
+Scenario: Create course add-reset video photo category rules , add instructor # src/test/resources/features/LMS/LMS.feature:6
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+12:56:51.967 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create course add-reset video photo category rules , add instructor(test-lms-functionalities;create-course-add-reset-video-photo-category-rules---add-instructor)
+-------------------------------------------------------------------
+12:56:52.232 [pool-1-thread-1] WARN  n.t.c.r.m.cucumber.CucumberParser - Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+12:56:54.848 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+12:56:54.850 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain                     # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127125716
+  When User performs "CreateNewCourse" action                                 # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+12:59:35.476 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Create course add-reset video photo category rules , add instructor
+----------------------------------------------------------------------------
+
+@LMS @LMS002
+Scenario: Edit course add-reset video photo category rules # src/test/resources/features/LMS/LMS.feature:11
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+12:59:35.485 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Edit course add-reset video photo category rules(test-lms-functionalities;edit-course-add-reset-video-photo-category-rules)
+-------------------------------------------------------------------
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127125716
+  When User performs "EditCourse" action                   # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:01:10.043 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Edit course add-reset video photo category rules
+----------------------------------------------------------------------------
+
+@LMS @LMS003
+Scenario: Create course content -add cover,image,video,audio,quote,button,text # src/test/resources/features/LMS/LMS.feature:15
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:01:10.056 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create course content -add cover,image,video,audio,quote,button,text(test-lms-functionalities;create-course-content--add-cover-image-video-audio-quote-button-text)
+-------------------------------------------------------------------
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-ACE20201127125935
+Header:-Name ActualValue:-ACTIVE
+  When User performs "CreateCourseContent" action                              # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:02:23.173 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Create course content -add cover,image,video,audio,quote,button,text
+----------------------------------------------------------------------------
+
+@LMS @LMS006
+Scenario: Take course ,ask question , ansewer question and rate course # src/test/resources/features/LMS/LMS.feature:19
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:02:23.177 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Take course ,ask question , ansewer question and rate course(test-lms-functionalities;take-course--ask-question---ansewer-question-and-rate-course)
+-------------------------------------------------------------------
+13:02:27.893 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:02:27.894 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "WithTestUser" domain         # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+  When User performs "TakeCourse" action                               # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+      net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1166)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:971)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1246)
+	at pages.LMSPage.takeCourseActions(LMSPage.java:819)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.takeCourseActions$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.takeCourseActions(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:48)
+	at ?.User performs "TakeCourse" action(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:21)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: .//button[@class='actionbutton actionblue spa-btn-ls'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1163)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:971)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1246)
+	at pages.LMSPage.takeCourseActions(LMSPage.java:819)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.takeCourseActions$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.takeCourseActions(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:66)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:254)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[@class='actionbutton actionblue spa-btn-ls']"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8f4ec6d708832ba5b9023f69cbcc9ea8
+*** Element info: {Using=xpath, value=.//button[@class='actionbutton actionblue spa-btn-ls']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:229)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 59 more
+
+  Given User has explicitly logged in to "desired" domain              # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+  When User performs "ViewCourseInsights" action                       # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+
+@LMS @LMS007
+Scenario: Assign and remove course users                  # src/test/resources/features/LMS/LMS.feature:26
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:04:12.221 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Assign and remove course users(test-lms-functionalities;assign-and-remove-course-users)
+-------------------------------------------------------------------
+13:04:17.014 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:04:17.014 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+Header:-Name ActualValue:-ACE20201127125935
+  When User performs "AssignRemoveCourseUsers" action     # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//ul[@id='searchedUserList']/li/span[1]"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71cfd1cc213ee7aadd350140a31b8981
+*** Element info: {Using=xpath, value=.//ul[@id='searchedUserList']/li/span[1]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getWrappedElement(WebElementFacadeImpl.java:1426)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:373)
+	at utilities.common.clickElement(common.java:394)
+	at utilities.common$ByteBuddy$J6zA4Uqp.clickElement$accessor$m11g8leg(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at utilities.common$ByteBuddy$J6zA4Uqp.clickElement(Unknown Source)
+	at pages.LMSPage.assignRemoveCourseUser(LMSPage.java:966)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.assignRemoveCourseUser$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.assignRemoveCourseUser(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:50)
+	at ?.User performs "AssignRemoveCourseUsers" action(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:28)
+
+
+@LMS @LMS008
+Scenario: Create course certificate             # src/test/resources/features/LMS/LMS.feature:31
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:05:06.878 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create course certificate(test-lms-functionalities;create-course-certificate)
+-------------------------------------------------------------------
+  When User performs "CreateCertificate" action # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:05:17.341 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Create course certificate
+----------------------------------------------------------------------------
+
+@LMS @LMS009
+Scenario: Create course category             # src/test/resources/features/LMS/LMS.feature:35
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:05:17.345 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create course category(test-lms-functionalities;create-course-category)
+-------------------------------------------------------------------
+  When User performs "CreateCategory" action # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:05:25.139 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Create course category
+----------------------------------------------------------------------------
+
+@LMS @LMS011
+Scenario: Add/Edit course fields                  # src/test/resources/features/LMS/LMS.feature:39
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:05:25.142 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Add/Edit course fields(test-lms-functionalities;add/edit-course-fields)
+-------------------------------------------------------------------
+  When User performs "AddEditCourseFields" action # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:06:59.790 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Add/Edit course fields
+----------------------------------------------------------------------------
+
+@LMS @LMS012
+Scenario: Take course as guest user                         # src/test/resources/features/LMS/LMS.feature:43
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:06:59.795 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Take course as guest user(test-lms-functionalities;take-course-as-guest-user)
+-------------------------------------------------------------------
+13:07:04.908 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:07:04.908 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain   # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127010815
+  When User performs "CreateNewCourse" action               # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127010815
+Header:-Name ActualValue:-ACTIVE
+  When User performs "CreateContentChapter" action          # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:11:04.370 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:11:04.370 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "guestUser" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+      java.lang.AssertionError: Element should be visible
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.failWithMessage(WebElementFacadeImpl.java:1021)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.shouldBeVisible(WebElementFacadeImpl.java:541)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy35.shouldBeVisible(Unknown Source)
+	at pages.DomainPage.loginCheck(DomainPage.java:498)
+	at pages.DomainPage$ByteBuddy$qF99RE2a.loginCheck$accessor$MyqVTQTx(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.DomainPage$ByteBuddy$qF99RE2a.loginCheck(Unknown Source)
+	at main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(DomainSteps.java:32)
+	at ?.User has explicitly logged in to "guestUser" domain(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:47)
+
+  When User performs "TakeCourseGuest" action               # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+  Given User has explicitly logged in to "desired" domain   # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+
+@LMS @LMS013
+Scenario: Verify course visibility specific to location        # src/test/resources/features/LMS/LMS.feature:52
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:11:44.114 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Verify course visibility specific to location(test-lms-functionalities;verify-course-visibility-specific-to-location)
+-------------------------------------------------------------------
+13:11:48.771 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:11:48.771 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain      # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-Automation Course
+  When User performs "SetLocationCourseVisibility" action      # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:12:43.897 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:12:43.897 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "WithTestUser" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+  Then Verify "LocationSpecificVisibility" action              # main.stepdefinitions.LMSSteps.course_visibilityCheck(java.lang.String)
+13:13:09.644 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Verify course visibility specific to location
+----------------------------------------------------------------------------
+
+@LMS @LMS014
+Scenario: Verify course visibility to Entire company          # src/test/resources/features/LMS/LMS.feature:59
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:13:09.648 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Verify course visibility to Entire company(test-lms-functionalities;verify-course-visibility-to-entire-company)
+-------------------------------------------------------------------
+13:13:14.423 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:13:14.424 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain     # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-Automation Course
+  When User performs "SetCompanyCourseVisibility" action      # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:14:09.432 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:14:09.432 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "CompanyUser" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+      java.lang.AssertionError: Element should be visible
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.failWithMessage(WebElementFacadeImpl.java:1021)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.shouldBeVisible(WebElementFacadeImpl.java:541)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy35.shouldBeVisible(Unknown Source)
+	at pages.DomainPage.loginCheck(DomainPage.java:498)
+	at pages.DomainPage$ByteBuddy$qF99RE2a.loginCheck$accessor$MyqVTQTx(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.DomainPage$ByteBuddy$qF99RE2a.loginCheck(Unknown Source)
+	at main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(DomainSteps.java:32)
+	at ?.User has explicitly logged in to "CompanyUser" domain(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:62)
+
+  Then Verify "CompanySpecificVisibility" action              # main.stepdefinitions.LMSSteps.course_visibilityCheck(java.lang.String)
+
+@LMS @LMS015
+Scenario: Verify course visibility to Private                  # src/test/resources/features/LMS/LMS.feature:66
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:14:49.152 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Verify course visibility to Private(test-lms-functionalities;verify-course-visibility-to-private)
+-------------------------------------------------------------------
+13:14:53.840 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:14:53.841 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain      # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-Automation Course
+  When User performs "SetPrivateCourseVisibility" action       # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:15:43.850 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:15:43.850 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "WithTestUser" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+  Then Verify "PrivateVisibility" action                       # main.stepdefinitions.LMSSteps.course_visibilityCheck(java.lang.String)
+13:16:07.701 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Verify course visibility to Private
+----------------------------------------------------------------------------
+
+@LMS @LMS016
+Scenario: Verify course visibility to Public              # src/test/resources/features/LMS/LMS.feature:73
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:16:07.705 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Verify course visibility to Public(test-lms-functionalities;verify-course-visibility-to-public)
+-------------------------------------------------------------------
+13:16:12.499 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:16:12.499 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-Automation Course
+  When User performs "SetPublicCourseVisibility" action   # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+  And User logs out from domain                           # main.stepdefinitions.DomainSteps.log_Out()
+  Then Verify "PublicVisibility" action                   # main.stepdefinitions.LMSSteps.course_visibilityCheck(java.lang.String)
+13:17:17.957 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:17:17.957 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+13:17:39.171 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Verify course visibility to Public
+----------------------------------------------------------------------------
+
+@LMS @LMS017
+Scenario: Create course to check mandatory a Pre-requisitie course # src/test/resources/features/LMS/LMS.feature:81
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:17:39.176 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create course to check mandatory a Pre-requisitie course(test-lms-functionalities;create-course-to-check-mandatory-a-pre-requisitie-course)
+-------------------------------------------------------------------
+13:17:44.491 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:17:44.491 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain          # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127011805
+  When User performs "CreateCoursePreRequisite" action             # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127011805
+Header:-Name ActualValue:-ACTIVE
+  When User performs "CreateContentChapter" action                 # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:19:53.388 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:19:53.389 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "WithTestUser" domain     # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+  Then Verify "CheckPreRequisitecourse" action                     # main.stepdefinitions.LMSSteps.course_visibilityCheck(java.lang.String)
+13:20:23.602 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:20:23.602 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain          # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+13:20:44.473 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Create course to check mandatory a Pre-requisitie course
+----------------------------------------------------------------------------
+
+@LMS @LMS018
+Scenario: Check Traversal and Completion Rules                 # src/test/resources/features/LMS/LMS.feature:90
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:20:44.478 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Check Traversal and Completion Rules(test-lms-functionalities;check-traversal-and-completion-rules)
+-------------------------------------------------------------------
+13:20:49.819 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:20:49.819 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain      # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127012110
+  When User performs "CreateTraversalCourse" action            # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127012110
+Header:-Name ActualValue:-ACTIVE
+  When User performs "CreateTraversalContent" action           # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:22:58.163 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:22:58.163 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "WithTestUser" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+  When User performs "TakeCourseSequential" action             # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:23:31.192 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:23:31.192 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain      # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+Header:-Name ActualValue:-AC20201127012110
+  When User performs "EditTraversalCourse" action              # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:24:22.403 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:24:22.403 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "WithTestUser" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+  When User performs "TakeCourseAnyOrder" action               # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:25:12.589 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:25:12.589 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain      # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+13:25:33.554 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Check Traversal and Completion Rules
+----------------------------------------------------------------------------
+
+@LMS @LMS010
+Scenario: Edit course settings                            # src/test/resources/features/LMS/LMS.feature:104
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:25:33.558 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Edit course settings(test-lms-functionalities;edit-course-settings)
+-------------------------------------------------------------------
+13:25:38.865 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+13:25:38.865 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --user-data-dir=C:\\ChromeP..., goog:chromeOptions: {args: [--user-data-dir=C:\\ChromeP..., --start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-session-crashed-b..., --allow-running-insecure-co..., --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+  Given User has explicitly logged in to "desired" domain # main.stepdefinitions.DomainSteps.user_has_logged_in_with_testeUser(java.lang.String)
+  When User performs "EditCourseSettings" action          # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label for="enable-page-view">...</label> is not clickable at point (243, 913). Other element would receive the click: <div id="mango-taskbar-inner" class="mango-clearfix">...</div>
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83818a40fd063a718666f966aa779576
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1248)
+	at pages.LMSPage.courseSettings(LMSPage.java:1118)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.courseSettings$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.courseSettings(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:56)
+	at ?.User performs "EditCourseSettings" action(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:106)
+
+
+@LMS @LMS004
+Scenario: Archive and Unarchive a course             # src/test/resources/features/LMS/LMS.feature:109
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:26:06.205 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Archive and Unarchive a course(test-lms-functionalities;archive-and-unarchive-a-course)
+-------------------------------------------------------------------
+Header:-Name ActualValue:-ACTIVE
+Header:-Name ActualValue:-ARCHIVED
+Header:-Name ActualValue:-ACTIVE
+  When User performs "ArchiveUnarchiveCourse" action # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:26:29.526 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Archive and Unarchive a course
+----------------------------------------------------------------------------
+
+@LMS @LMS005
+Scenario: Delete and restore a course             # src/test/resources/features/LMS/LMS.feature:113
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:26:29.529 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Delete and restore a course(test-lms-functionalities;delete-and-restore-a-course)
+-------------------------------------------------------------------
+Header:-Name ActualValue:-ACTIVE
+Header:-Name ActualValue:-ACTIVE
+  When User performs "DeleteRestoreCourse" action # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:27:03.095 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Delete and restore a course
+----------------------------------------------------------------------------
+
+@LMS @LMS019
+Scenario: Create SCORM course , upload new version , check versioning # src/test/resources/features/LMS/LMS.feature:117
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:27:03.098 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create SCORM course , upload new version , check versioning(test-lms-functionalities;create-scorm-course---upload-new-version---check-versioning)
+-------------------------------------------------------------------
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+  When User performs "CreateSCORMCourse" action                       # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:30:27.429 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Create SCORM course , upload new version , check versioning
+----------------------------------------------------------------------------
+
+@LMS @LMS020
+Scenario: Disable Learn module and verfiy        # src/test/resources/features/LMS/LMS.feature:121
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:30:27.433 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Disable Learn module and verfiy(test-lms-functionalities;disable-learn-module-and-verfiy)
+-------------------------------------------------------------------
+  When User performs "DisableLearnModule" action # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:30:48.058 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Disable Learn module and verfiy
+----------------------------------------------------------------------------
+
+@LMS @LMS021
+Scenario: View course as instructor and verify # src/test/resources/features/LMS/LMS.feature:125
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:30:48.061 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+View course as instructor and verify(test-lms-functionalities;view-course-as-instructor-and-verify)
+-------------------------------------------------------------------
+  When User performs "ViewAsInstructor" action # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+13:30:53.696 [pool-1-thread-1] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+View course as instructor and verify
+----------------------------------------------------------------------------
+
+@LMS @LMS022
+Scenario: Create sequencial curriculum         # src/test/resources/features/LMS/LMS.feature:129
+Feature from file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature
+13:30:53.698 [pool-1-thread-1] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create sequencial curriculum(test-lms-functionalities;create-sequencial-curriculum)
+-------------------------------------------------------------------
+\src\test\resources\TestData\TestData.xlsx
+C:\MangoAppsAutomation\src\test\resources\TestData\TestData.xlsx
+  When User performs "CreateCurriculum" action # main.stepdefinitions.LMSSteps.lms_actions(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//ul/li/a[text()='Create a Curriculum']"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83818a40fd063a718666f966aa779576
+*** Element info: {Using=xpath, value=.//ul/li/a[text()='Create a Curriculum']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:25)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getResolvedELement(WebElementFacadeImpl.java:234)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getWrappedElement(WebElementFacadeImpl.java:1426)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:373)
+	at utilities.common.clickElement(common.java:394)
+	at utilities.common$ByteBuddy$J6zA4Uqp.clickElement$accessor$m11g8leg(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at utilities.common$ByteBuddy$J6zA4Uqp.clickElement(Unknown Source)
+	at pages.LMSPage.createCurriculum(LMSPage.java:1663)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.createCurriculum$accessor$GLCJyfLB(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:394)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:179)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at pages.LMSPage$ByteBuddy$SKHIzzDA.createCurriculum(Unknown Source)
+	at main.stepdefinitions.LMSSteps.lms_actions(LMSSteps.java:87)
+	at ?.User performs "CreateCurriculum" action(file:///C:/MangoAppsAutomation/src/test/resources/features/LMS/LMS.feature:130)
+
+[ERROR] Tests run: 22, Failures: 2, Errors: 4, Skipped: 0, Time elapsed: 2,049.637 s <<< FAILURE! - in Test LMS functionalities
+[ERROR] Test LMS functionalities.Take course ,ask question , ansewer question and rate course  Time elapsed: 108.903 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: .//button[@class='actionbutton actionblue spa-btn-ls'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[@class='actionbutton actionblue spa-btn-ls']"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8f4ec6d708832ba5b9023f69cbcc9ea8
+*** Element info: {Using=xpath, value=.//button[@class='actionbutton actionblue spa-btn-ls']}
+
+[ERROR] Test LMS functionalities.Assign and remove course users  Time elapsed: 54.578 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//ul[@id='searchedUserList']/li/span[1]"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71cfd1cc213ee7aadd350140a31b8981
+*** Element info: {Using=xpath, value=.//ul[@id='searchedUserList']/li/span[1]}
+
+[ERROR] Test LMS functionalities.Take course as guest user  Time elapsed: 284.239 s  <<< FAILURE!
+java.lang.AssertionError: Element should be visible
+
+[ERROR] Test LMS functionalities.Verify course visibility to Entire company  Time elapsed: 99.419 s  <<< FAILURE!
+java.lang.AssertionError: Element should be visible
+
+[ERROR] Test LMS functionalities.Edit course settings  Time elapsed: 32.567 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label for="enable-page-view">...</label> is not clickable at point (243, 913). Other element would receive the click: <div id="mango-taskbar-inner" class="mango-clearfix">...</div>
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83818a40fd063a718666f966aa779576
+
+[ERROR] Test LMS functionalities.Create sequencial curriculum  Time elapsed: 7.759 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//ul/li/a[text()='Create a Curriculum']"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83818a40fd063a718666f966aa779576
+*** Element info: {Using=xpath, value=.//ul/li/a[text()='Create a Curriculum']}
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   Element should be visible
+[ERROR]   Element should be visible
+[ERROR] Errors: 
+[ERROR]   no such element: Unable to locate element: {"method":"xpath","selector":".//ul[@id='searchedUserList']/li/span[1]"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71cfd1cc213ee7aadd350140a31b8981
+*** Element info: {Using=xpath, value=.//ul[@id='searchedUserList']/li/span[1]}
+[ERROR]   no such element: Unable to locate element: {"method":"xpath","selector":".//ul/li/a[text()='Create a Curriculum']"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83818a40fd063a718666f966aa779576
+*** Element info: {Using=xpath, value=.//ul/li/a[text()='Create a Curriculum']}
+[ERROR]   element click intercepted: Element <label for="enable-page-view">...</label> is not clickable at point (243, 913). Other element would receive the click: <div id="mango-taskbar-inner" class="mango-clearfix">...</div>
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUSHKARV', ip: '192.168.105.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\ChromeProfie}, goog:chromeOptions: {debuggerAddress: localhost:52895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83818a40fd063a718666f966aa779576
+[ERROR]   Expected enabled element was not enabled
+[INFO] 
+[ERROR] Tests run: 22, Failures: 2, Errors: 4, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- serenity-maven-plugin:2.2.7:aggregate (serenity-reports) @ SerenityBDDCucumber ---
+[WARNING] Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+[WARNING] Couldn't read the feature file C:\MangoAppsAutomation\src\test\resources\features\ZDependantTCs\ZIEBrowser.feature - it will be ignored
+[INFO] Test results for 22 tests generated in 3.3 secs in directory: file:/C:/MangoAppsAutomation/Result/
+[INFO] -----------------------------------------
+[INFO]  SERENITY TESTS : ERROR
+[INFO] -----------------------------------------
+[INFO] | Tests executed         | 22
+[INFO] | Tests passed           | 16
+[INFO] | Tests failed           | 3
+[INFO] | Tests with errors      | 3
+[INFO] | Tests compromised      | 0
+[INFO] | Tests pending          | 0
+[INFO] | Tests ignored/skipped  | 0
+[INFO] ------------------------ | --------------
+[INFO] | Total Duration         | 34m 8s
+[INFO] | Fastest test took      | 5s 556ms
+[INFO] | Slowest test took      | 4m 49s
+[INFO] -----------------------------------------
+[INFO] 
+[INFO] SERENITY REPORTS
+[INFO]   - Full Report: file:///C:/MangoAppsAutomation/Result/index.html
+[INFO]   - Single Page HTML Summary: file:///C:/MangoAppsAutomation/Result/serenity-summary.html
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M4:verify (default) @ SerenityBDDCucumber ---
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping or
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34:36 min
+[INFO] Finished at: 2020-11-27T13:31:19+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-failsafe-plugin:3.0.0-M4:verify (default) on project SerenityBDDCucumber: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\MangoAppsAutomation\target\failsafe-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
