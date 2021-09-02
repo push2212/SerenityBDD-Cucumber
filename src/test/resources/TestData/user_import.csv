@@ -1,0 +1,28 @@
+name,firstname,lastname,email/login,dob,title,location,organization,phone,desktop_extension,mobile,manager,Enabled,locale,Office Locations, also known as, education, experience, expertise, employee id, gender, Languages Known, relationship status, Name Of Children, alternate email, date of joining, address, skype,Social Media Handles,bio
+MangoApps Automation,MangoApps,Automation,mangoappsautomation@mangoapps.com,mm/dd/yyyy,Director,Seattle USA,hollywood,(+91)1234123411,11,(+91)9766224913,willsmith@gmail.com,TRUE,german,Seattle,,,,java,123, male,English, single,, will_smith@yahoo.in, 12/04/2018,"<addresses>
+  <address-1>
+    <address-line-1>123 Fake St</address-line-1>
+    <address-line-2></address-line-2>
+    <address-type>Home</address-type>
+    <city>New York City</city>
+    <country>United States</country>
+    <primary-address>1</primary-address>
+    <state>New York</state>
+    <zip>12345</zip>
+  </address-1>
+  <address-2>
+    <address-line-1>123 Fake St</address-line-1>
+    <address-line-2></address-line-2>
+    <address-type>Home</address-type>
+    <city>Washington D.C.</city>
+    <country>United States</country>
+    <primary-address></primary-address>
+    <state>District of Columbia</state>
+    <zip>54321</zip>
+  </address-2>
+</addresses>",  will@live,"<social-media-handles>
+  <facebook></facebook>
+  <twitter></twitter>
+  <instagram></instagram>
+  <snapchat></snapchat>
+</social-media-handles>",<p> Test </p>
